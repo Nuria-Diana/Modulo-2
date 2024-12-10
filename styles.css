@@ -1,0 +1,12 @@
+/* Archivo styles.css */
+h1 {
+    color: rgba(71, 7, 190, 0.678);
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    color: rgb(22, 17, 17);
+}
+h2 {
+    color: #dce649;
+}
