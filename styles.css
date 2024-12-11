@@ -10,47 +10,64 @@ p {
 h2 {
     color: #dce649;
 }
-.cuadro {
-    padding: 20px; /* Espaciado interno */
-    border: 5px solid rgb(157, 20, 220); /* Borde sólido de color púrpura */
-    display: inline-block; /* El cuadro se ajusta al tamaño del contenido */
-    background-color: #f9f9f9; /* Color de fondo */
-    border-radius: 10px; /* Esquinas redondeadas (opcional) */
-    text-align: center; /* Centrar el texto dentro del cuadro */
-}
-.cuadro2 {
-    padding: 20px; /* Espaciado interno */
-    border: 5px solid #2814dc; /* Borde sólido de color púrpura */
-    display: inline-block; /* El cuadro se ajusta al tamaño del contenido */
-    background-color: #f9f9f9; /* Color de fondo */
-    border-radius: 10px; /* Esquinas redondeadas (opcional) */
-    text-align: center; /* Centrar el texto dentro del cuadro */
-}
 
-.cuadro3 {
-    padding: 20px; /* Espaciado interno */
-    border: 5px solid hsl(323, 83%, 47%); /* Borde sólido de color púrpura */
-    display: inline-block; /* El cuadro se ajusta al tamaño del contenido */
-    background-color: #f9f9f9; /* Color de fondo */
-    border-radius: 10px; /* Esquinas redondeadas (opcional) */
-    text-align: center; /* Centrar el texto dentro del cuadro */
-}
-
-.cuadro4 {
-    width: 300px; /* Ancho del cuadro */
-    height: 200px; /* Alto del cuadro */
-    background-color: #f0f0f0; /* Color de fondo */
-    border: 5px solid #ff5733; /* Borde de color (puedes cambiar el color) */
-    border-radius: 10px; /* Esquinas redondeadas */
-    padding: 20px; /* Espaciado interno */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra */
-    text-align: center; /* Centrar el texto dentro del cuadro */
-}
-
-.cuadro5 {
+.cuadro1 {
     width: 400px;
     height: 300px;
     border: 3px solid #33ffe4;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.imagen {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.texto {
+    font-size: 16px;
+    color: #333;
+}
+.cuadro2 {
+    width: 400px;
+    height: 300px;
+    border: 3px solid #ebff33;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.imagen {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.texto {
+    font-size: 16px;
+    color: #333;
+}
+
+.cuadro3 {
+    width: 400px;
+    height: 300px;
+    border: 3px solid hsl(0, 100%, 60%);
     padding: 20px;
     box-sizing: border-box;
     display: flex;
